@@ -7,10 +7,7 @@ const getUser = (_req: Request, res: Response, next: NextFunction) => {
 	res.send('obteniendo user')
 	next()
 }
-const createUser = (_req: Request, res: Response, next: NextFunction) => {
-	res.send('creando user')
-	next()
-}
+
 const updateUser = (_req: Request, res: Response, next: NextFunction) => {
 	res.send('actualizando user')
 	next()
@@ -20,4 +17,4 @@ const deleteUser = (_req: Request, res: Response, next: NextFunction) => {
 	next()
 }
 
-export { getUser, getUsers, createUser, updateUser, deleteUser }
+export { getUser, getUsers, updateUser, deleteUser }
